@@ -4,6 +4,7 @@ import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import GradeIcon from '@mui/icons-material/Grade';
 import RecyclingIcon from '@mui/icons-material/Recycling';
 import SupportIcon from '@mui/icons-material/Support';
+import { Button } from '@mui/material';
 
 const Services = () => {
   return (
@@ -32,7 +33,7 @@ const Services = () => {
         </p>
         <p className='text-lg	font-semibold	'>From $99</p>
         <div className="w-1/2">
-        <button type="button" className="focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-900">Order Now</button>
+        <Button type="button" className="focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-900" href='/contact'>Order Now</Button>
         </div>
       </div>
       
@@ -49,7 +50,7 @@ const Services = () => {
                 </p>
                 <p className='text-lg	font-semibold	'>From $99</p>
                 <div className="w-1/2">
-                <button type="button" className="focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-900">Order Now</button>
+                <Button type="button" className="focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-900" href='/contact'>Order Now</Button>
                 </div>
               </div>
               <div className='md:w-1/2 m-auto lg:w-1/2 items-center flex'>
@@ -76,7 +77,6 @@ const Services = () => {
                         width={500}
                         priority 
                         height={1000}
-                        
                         />
                     </div>
                 </div>
@@ -89,7 +89,7 @@ const Services = () => {
                 <p className='font-semibold	'>Location,lighting, composition,emotion and technical settings.</p>
                 <p className='text-lg	font-semibold	'>From $99</p>
                 <div className="w-1/2">
-                <button type="button" className="focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-900">Order Now</button>
+                <Button type="button" className="focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-900" href='/contact'>Order Now</Button>
                 </div>
               </div>
               

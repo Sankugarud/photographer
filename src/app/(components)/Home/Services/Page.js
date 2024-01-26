@@ -32,7 +32,7 @@ const Services = () => {
             {arr.map((item, i) => (
                 <div key={i} className="m-auto w-10/12 flex flex-col gap-5 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
                   
-                        <Image src={item.img} alt="serviceCard"  width={300} height={600}/>
+                        <Image src={item.img} alt="serviceCard" style={{ width: '100%', height: 'auto' }} width={300} height={600}/>
                    
                     <div className="py-5 flex flex-col gap-5">
 

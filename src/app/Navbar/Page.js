@@ -20,7 +20,7 @@ const Navbars = () => {
         <nav className="flex justify-between">
           <div className="flex justify-between w-full">
             <Link href="/" className="text-3xl font-bold">
-                <Image src={photologo} alt="photoLogo" priority width={100} />
+                <Image src={photologo} style={{ width: '100%', height: 'auto' }} alt="photoLogo" priority width={100} height={100} />
             </Link>
             <ul className=" flex items-center gap-16 max-lg:hidden">
                 {navLinks.map((item) => (

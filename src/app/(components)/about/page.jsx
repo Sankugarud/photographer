@@ -41,8 +41,8 @@ const About = () => {
         <div className='font-semibold text-2xl px-5 text-center lg:w-1/2 md:w-4/5 sm:w-full m-auto'>
             “Love Nature has an amazing team of hard working professionals. It has been a pleasure to meet them.”
         </div>
-        <div className='m-auto'> <Image src={'/image/photoLogo.png'} alt='logo' width={100} height={100}/></div>
-        <Button className='w-38 m-auto my-5 bg-red-500' href='/dashboard' variant="contained">Book Now</Button> 
+        <div className='m-auto'> <Image src={'/image/photoLogo.png'} style={{ width: '100%', height: 'auto' }} alt='logo' width={100} height={100}/></div>
+        <Button className='w-38 m-auto my-5 bg-red-500' href='/contact' variant="contained">Book Now</Button> 
 
       </div>
     </div>

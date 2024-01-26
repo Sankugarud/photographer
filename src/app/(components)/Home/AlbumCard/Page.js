@@ -14,6 +14,7 @@ const AlbumCard = () => {
         <Image
           src='https://images.squarespace-cdn.com/content/v1/54800ef9e4b0787f2c715d92/1631522427605-SEVIFP8ZDLZN9V3YG18S/LOVELENSCAPES+PHOTOGRAPHY+%E2%80%A2+WEDDING+ALBUMS+%26+MAGAZINES+%E2%80%A2+BERLIN+BRISBANE+BEYOND+%E2%80%A2+118.jpg'
           alt='Album Image'
+          priority
           width={500}
           height={1000}
         />

@@ -10,7 +10,7 @@ const FindOutMe = () => {
             “Love Nature has an amazing team of hard working professionals. It has been a pleasure to meet them.”
         </div>
         <div className='m-auto '>
-            <Image src={'/image/photoLogo.png'} alt='logo' width={200} height={200}/>
+            <Image src={'/image/photoLogo.png'} alt='logo'style={{ width: '100%', height: 'auto' }} width={200} height={200}/>
         </div>
         <Button className='w-38 m-auto my-5 bg-orange-700' href='/contact' variant="contained">Book Now</Button> 
 
